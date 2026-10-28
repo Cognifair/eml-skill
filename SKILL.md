@@ -1,9 +1,11 @@
 ---
 name: eml
-description: Equitable Math Leaning Skill，简称 EML skill，发音同 email。结合前置知识诊断、微步教学、费曼式复述和针对性变式练习。用户要求按精熟学习法系统学会一个知识点、每次讲一小块并复述检验，或明确调用 EML skill、eml 或全称时使用；普通概念答疑、只要答案或一次性证明不默认进入完整流程。
+description: Equitable Math Learning Skill，简称 EML skill，发音同 email。结合前置知识诊断、微步教学、费曼式复述和针对性变式练习。用户要求按精熟学习法系统学会一个知识点、每次讲一小块并复述检验，或明确调用 EML skill、eml 或全称时使用；普通概念答疑、只要答案或一次性证明不默认进入完整流程。
+metadata:
+  version: "1.0.0"
 ---
 
-# Equitable Math Leaning Skill
+# Equitable Math Learning Skill
 
 简称：EML skill。发音同英文 email。技能调用名：`$eml`。
 
