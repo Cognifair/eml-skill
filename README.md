@@ -131,7 +131,7 @@ EML：按证据判定“本次检测通过 / 需要补救”，
 把仓库克隆到客户端的技能目录，例如 Codex：
 
 ```powershell
-git clone https://github.com/Cognifair/dsh-skill-eml.git "$env:USERPROFILE\.codex\skills\eml"
+git clone https://github.com/Cognifair/eml-skill.git "$env:USERPROFILE\.codex\skills\eml"
 ```
 
 安装后在客户端里调用 `$eml`，或直接说“用 EML 学……”。客户端需要重启或重新扫描技能目录后才会发现新技能。
@@ -139,7 +139,7 @@ git clone https://github.com/Cognifair/dsh-skill-eml.git "$env:USERPROFILE\.code
 ## 仓库结构
 
 ```text
-dsh-skill-eml/
+eml-skill/
 ├── SKILL.md    # 技能定义：诊断、微步、复述、检测、补救、边界
 ├── README.md   # 本文件
 └── LICENSE     # MIT
